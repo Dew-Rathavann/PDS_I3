@@ -1,6 +1,7 @@
-total_seconds = 3600
+total_seconds = 5401
 hour = total_seconds // 3600
 minute = (total_seconds % 3600) // 60
-second = total_seconds % 60
+second = (total_seconds % 3600) % 60
+print(hour, minute, second)
 
-print(f"{hour} H - {minute} m - {second} s")
+print("Checkkkk: ", (hour * 3600) + (minute * 60) + second == total_seconds)
