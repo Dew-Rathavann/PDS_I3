@@ -1,14 +1,11 @@
 name = "Sao"
-age = 20
-major = 'Fish Seller'
+age = 22
+major = 'Software Engineer'
 gpa = 2.5
 is_scholar = True
 
-print('===============================')
+print("===========================")
 print("Name: ", name)
-print("Age: ", age)
-print("Major: ", major)
-print("GPA: ", gpa)
-print('===============================')
-
-print("Age Type: ", type(age))
+print(f"GPA: {gpa:.2f}")
+print("===========================")
+print(type(gpa))
